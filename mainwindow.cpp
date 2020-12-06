@@ -38,8 +38,8 @@ void MainWindow::on_pushButton_clicked()
 
     ui->LowerCasePassword_text->setText(QString::number(durability));
     ui->Alphabet->setText(QString::number(powerAlph));
-    ui->LengthPassword_label->setText(QString::number(5));
+    ui->LengthPassword_label->setText(QString::number(6));
 
-    for (int i=0; i<5; ++i)
+    for (int i=0; i<6; ++i)
         ui->CreatedPassword_label->setText(ui->CreatedPassword_label->text() +randomChars[rand()%62]);
 }
