@@ -16,13 +16,9 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-int i=0;
-
-
 void MainWindow::on_pushButton_clicked()
 {
     ui->CreatedPassword_label->setText("");
-    i++;
     std::string randomChars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
     int durability;
     int speed;
